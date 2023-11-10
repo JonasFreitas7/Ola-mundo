@@ -16,10 +16,29 @@
     </header>
     <main>
 
+        <h1>Delegação de eventos</h1>
+        
+        <ul>
+            <li>Lista 1</li>
+            <li>Lista 2</li>
+            <li>Lista 3</li>
+        </ul>
+        <button class="oculto">
+            Ocultar lista
+        </button>
     </main>
     <footer>
 
     </footer>
+    <script>
+        let oculto = document.querySelector('.oculto')
+
+        oculto.addEventListener('click', clicou)
+        
+        function clicou(){
+            alert('Você clicou nesse botão!')
+        }
+    </script>
 </body>
 </html>
 [MENU]
